@@ -13,6 +13,11 @@ When working with parameters passed to a bash scripts the following expressions 
 
 * `$#`: get the number of parameters passed
 * `$@`: get all parameters (useful for iteration over passed parameters)
+* `${INDEX}` where `{INDEX}`is the index of the passed parameter:
+
+   e.g. `$1` to access the first parameter, `$2` to access the second parameter etc.
+
+* `${@: -1}`to access the last passed parameter
 
 Example script: [passDaVar.sh](passDaVar.sh)
 
