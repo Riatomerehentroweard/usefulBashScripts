@@ -39,5 +39,20 @@ moving all the files from a to b.
 "
 
 for f in ./allThemFiles/cup_a/*; do
-    mv $f ./../cup_b
+    mv $f allThemFiles/cup_b
+done
+
+printf "
+Cup b has the following files:
+"
+
+for f in ./allThemFiles/cup_b/*; do
+    echo $f
+done
+
+printf "
+moving all the files back.
+"
+for f in ./allThemFiles/cup_b/*; do
+    mv $f allThemFiles/cup_a
 done
