@@ -39,3 +39,7 @@ apple pear orange
 ## list all video files in subfolders
 
 [checkout showMeThemBiggies.sh](showMeThemBiggies.sh)
+
+## check if a command was successful
+
+[successfulOrNot.sh](successfulOrNot.sh)
