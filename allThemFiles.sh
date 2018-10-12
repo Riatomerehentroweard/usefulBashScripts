@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Here you have all the file in the current direcotry:"
 for f in ./*; do
     echo $f

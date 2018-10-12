@@ -30,8 +30,12 @@ apple pear orange
 
 ## watching a folder and execute a task for new files
 
-Example script: [watchMaDir.sh](watchMaDir.sh)
+[checkout watchMaDir.sh](watchMaDir.sh)
 
 ## execute a command for every file in a directory
 
-Example script: [allThemFiles.sh](allThemFiles.sh)
+[checkout allThemFiles.sh](allThemFiles.sh)
+
+## list all video files in subfolders
+
+[checkout showMeThemBiggies.sh](showMeThemBiggies.sh)
