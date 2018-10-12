@@ -40,6 +40,19 @@ apple pear orange
 
 [checkout showMeThemBiggies.sh](showMeThemBiggies.sh)
 
+
 ## check if a command was successful
 
 [successfulOrNot.sh](successfulOrNot.sh)
+
+## read a file
+
+file:
+key1=value1
+key2=value2
+key3=value3
+
+while IFS='=' read -r key value
+ do
+     echo "reading $key and $value"
+ done < "fileToRead.txt"
