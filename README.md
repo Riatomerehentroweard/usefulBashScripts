@@ -39,3 +39,15 @@ apple pear orange
 ## list all video files in subfolders
 
 [checkout showMeThemBiggies.sh](showMeThemBiggies.sh)
+
+## read a file
+
+file:
+key1=value1
+key2=value2
+key3=value3
+
+while IFS='=' read -r key value
+ do
+     echo "reading $key and $value"
+ done < "fileToRead.txt"
